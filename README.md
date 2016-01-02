@@ -4,8 +4,13 @@ Creates websocket channel to send and save messages.
 
 ## Installation
 
+Must have mongodb running to save messages.
 ```
 mongod --dbpath ~/data/db
+```
+
+Then to install and start:
+```
 npm install
 npm start
 
@@ -15,5 +20,5 @@ npm start
 
 Sever for https://github.com/hyxos/node-php 
 
-Must have mongodb running to save messages.
+Client code here: https://github.com/hyxos/node-php/blob/master/module/Application/view/application/index/index.phtml
 
